@@ -10,7 +10,7 @@ module.exports = {
         primary:'#fbf3ed'
       },
       backgroundImage:{
-        heroImg:"url('/images/heroimg2.jpg')",
+        heroImg:"url('/images/heroimg.jpg')",
         montauk:"url('/images/montauk.jpg')"
       }
     },

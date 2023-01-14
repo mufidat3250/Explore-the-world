@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className='hero-wrapper'>
       <div className="herosection">
-      <h4>Here is to Lifes simple pleasures this </h4>
+      <h4>Here is to Life's simple pleasures this </h4>
       <h1>WINTER</h1>
 </div>
    <div className='desc'>
