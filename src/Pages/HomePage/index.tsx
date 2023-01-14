@@ -43,7 +43,7 @@ const HomePage = () => {
             <Happenings/>
             <Experience/>
           <div>
-          <img src="/public/images/stones.webp" alt=""  className="h-[23rem] mt-4 w-full object-cover"/>
+          <img src="/images/stones.webp" alt=""  className="h-[23rem] mt-4 w-full object-cover"/>
           </div>
 
           <Footer/>

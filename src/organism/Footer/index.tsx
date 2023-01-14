@@ -14,7 +14,7 @@ const Footer = () => {
           <i>hello @ marrammontauk . com</i>
         </div>
       </div>
-      <div className="max-w-[17rem] grid grid-cols-2 text-[14px] text-right space-x-[1rem]">
+      <div className="max-w-[17rem] grid grid-cols-2 text-[14px] text-right space-x-[1rem] text-wh">
             {link.map((link, index)=> <a className="no-wrap">{link}</a>)}
       </div>
      </div>

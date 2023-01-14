@@ -48,13 +48,15 @@ const NavBar = () => {
                 {tab}
               </a>
             ))}
-            <div className="flex flex-col text-center">
+            <div className="flex flex-col text-center text-white">
               <i>Connect with us</i>
               <i>hello @ marrammontauk . com</i>
             </div>
             <div className="flex">
-            <Phone/>
+            <div><Phone/></div>
+            <div>
             <Locations/>
+            </div>
             </div>
             </div>
          </div>
