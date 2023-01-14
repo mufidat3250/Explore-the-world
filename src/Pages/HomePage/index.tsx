@@ -6,16 +6,9 @@ import HeroSection from "../../molecules/HeroSection/HeroSection";
 import Montauk from "../../molecules/MonTauk";
 import Sliders from "../../molecules/Slider";
 import "./HomePage.scss";
+import { sliderImg } from "../../data";
 
-const sliderImg = [
-  "/images/slider1.webp",
-  "/images/slider2.webp",
-  "/images/slider3.webp",
-  "/images/slider4.webp",
-  "/images/slider5.webp",
-  "/images/slider6.webp",
-  "/images/slider7.webp",
-];
+
 const HomePage = () => {
   return (
     <div className="homePage">

@@ -60,3 +60,12 @@ export const experience = [
 export const quotations =[
     'MARRAM … describes their vibe as “barefoot luxury.” It’s apparent from the movement you arrive.', 'Rarities like , a beautiful new beachfront property, are a reminder that peace, quiet and mindfulness were once the hamlet’s primary draw.', `Finally, a hotel experience with everything you need, and nothing you don't. Walk to the ocean and into town to enjoy the best that Montauk has to offer in people, place and cuisine.`,`MARRAM—the English word for the wild seagrass that is found all around the hotel, often planted in elegant dunes—has a prime spot right on the beach.`
 ]
+export const sliderImg = [
+    "/images/slider1.webp",
+    "/images/slider2.webp",
+    "/images/slider3.webp",
+    "/images/slider4.webp",
+    "/images/slider5.webp",
+    "/images/slider6.webp",
+    "/images/slider7.webp",
+  ];
