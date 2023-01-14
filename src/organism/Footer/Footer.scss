@@ -1,6 +1,6 @@
 .footerWraper{
-    @apply bg-[#897e6d] h-[20rem] w-full flex text-white;
+    @apply bg-[#897e6d] h-[14rem] w-full flex text-white;
     .footer-content{
-        @apply  w-full flex  flex-col items-center gap-5  md:flex-row max-w-[80%] mx-auto  md:justify-between  my-auto;
+        @apply  w-full flex  items-center gap-5  md:flex-row max-w-[80%] mx-auto  md:justify-between  my-auto;
     }
 }
