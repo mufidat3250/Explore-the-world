@@ -1,6 +1,6 @@
 .montauk-wrapper{
-    @apply h-[30rem]  relative bg-montauk bg-no-repeat bg-cover flex justify-center items-center mb-52;
+    @apply h-[30rem]  relative bg-montauk bg-no-repeat bg-cover flex justify-center items-center;
     .text{
-        @apply absolute inset-0 w-full grid items-center text-center text-white uppercase;
+        @apply absolute inset-0 w-full grid items-center text-center text-white uppercase
     }
 }

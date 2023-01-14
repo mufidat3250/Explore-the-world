@@ -1,8 +1,10 @@
 import Button from "../../attom/Button";
 import NavBar from "../../attom/NavBar";
+import Experience from "../../molecules/Experiences";
+import Happenings from "../../molecules/Happenings";
 import HeroSection from "../../molecules/HeroSection/HeroSection";
 import Montauk from "../../molecules/MonTauk";
-import Sliders from "../../molecules/Slick";
+import Sliders from "../../molecules/Slider";
 import "./HomePage.scss";
 
 const sliderImg = [
@@ -44,6 +46,8 @@ const HomePage = () => {
           </div>
         </div>
             <Montauk/>
+            <Happenings/>
+            <Experience/>
       </main>
     </div>
   );

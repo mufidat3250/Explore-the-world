@@ -1,0 +1,10 @@
+.happenings-wrapper{
+    @apply bg-[#f2eae1] pb-[3.5rem];
+    h1{
+        @apply py-[3.9375rem]  text-[1.375rem] font-[400] text-[#654b37] pl-12 bg-[#f2eae1];
+    }
+
+    .tourism{
+        @apply grid grid-cols-[1fr_2fr] px-12 gap-[3.0625rem];
+    }
+}

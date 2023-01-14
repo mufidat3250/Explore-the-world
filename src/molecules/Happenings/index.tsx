@@ -1,8 +1,19 @@
 import React from 'react'
+import './Hapenings.scss'
+import {happenings} from './../../data'
+import Menu from '../../attom/Menu.tsx'
 
 const Happenings = () => {
   return (
-    <div className=''></div>
+    <div className='happenings-wrapper'>
+        <h1>HAPPENINGS</h1>
+        <div className='tourism'>
+            <img src="/images/happenings.webp" alt="" />
+            <div>
+            {happenings.map((data, index)=> <Menu data={data} key={`menu--${index}`}/>)}
+            </div>
+        </div>
+    </div>
   )
 }
 
