@@ -26,21 +26,26 @@ const HomePage = () => {
           </Sliders>
         </div>
 
-        <div className="flex max-w-[85%] justify-between mx-auto my-40">
+        <div className="flex flex-col space-y-5 md:space-y-0 md:flex-row max-w-[85%] justify-between mx-auto my-20 md:my-40">
           <div>
-            <p className="text-[1.375rem]  max-w-[51rem]">
+            <p className="md:text-[1.375rem]  max-w-[51rem]">
               <strong className="text-[#d77560]"> STAY</strong> Our 96-room
               boutique resort has both an innate and intimate sense of place
               that evokes the spirit of its natural, untouched landscape.
             </p>
           </div>
-          <div className="w-[10rem] self-end">
+          <div className="w-[10rem] md:self-end">
             <Button title="OUR ROOMS" />
           </div>
         </div>
             <Montauk/>
             <Happenings/>
             <Experience/>
+          <div>
+          <img src="/public/images/stones.webp" alt=""  className="h-[15rem] w-full object-cover"/>
+          </div>
+
+          <></>
       </main>
     </div>
   );

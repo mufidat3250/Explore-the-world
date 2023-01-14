@@ -11,12 +11,12 @@
         @apply flex space-x-4 uppercase;
 
         .tab{
-            @apply hidden md:block cursor-pointer hover:text-black hover:font-[700];
+            @apply hidden md:block cursor-pointer text-gray-500 hover:text-black ;
         }
         
     }
     .mobile{
-        @apply bg-[#897e6d]  md:hidden absolute  top-0  h-screen cursor-pointer   flex-col hover:text-black hover:font-[700]  z-[1000] w-full  pt-[2rem] px-[2rem] uppercase transition-all duration-500;
+        @apply bg-[#897e6d]  md:hidden absolute  top-0  h-screen cursor-pointer   flex-col  hover:font-[700]  z-[1000] w-full  pt-[2rem] px-[2rem] uppercase transition-all duration-500;
         .cancel{
             @apply text-white self-end cursor-pointer ;
         }

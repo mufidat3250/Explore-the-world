@@ -1,6 +1,6 @@
 .menu-wrapper{
     @apply flex flex-col border-t-[1px] py-[1rem]  cursor-pointer;
     .single-detail{
-        @apply flex justify-between;
+        @apply flex justify-between ;
     }
 }

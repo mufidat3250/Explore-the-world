@@ -5,6 +5,6 @@
     }
 
     .tourism{
-        @apply grid grid-cols-[1fr_2fr] px-12 gap-[3.0625rem];
+        @apply grid md:grid-cols-[1fr_2fr] px-12 gap-[3.0625rem];
     }
 }

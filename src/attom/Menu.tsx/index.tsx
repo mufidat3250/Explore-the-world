@@ -12,9 +12,9 @@ const Menu = ({data}:{data:any}) => {
     <div className='menu-wrapper'>
         <div className='single-detail' onClick={showSubmenu}>
             <div className=' flex flex-col'>
-                <p className='text-[#6f7071] text-[1.375rem]'>{data.title}</p>
+                <p className='text-[#6f7071] md:text-[1.375rem]'>{data.title}</p>
                <i className='font-[600]'>
-               <h3 className='text-[#c14c2b] text-[1.375rem]  font-[600]'>{data.subtitle}</h3>
+               <h3 className='text-[#c14c2b] md:text-[1.375rem]  font-[600]'>{data.subtitle}</h3>
                </i>
             </div>
             <p className='text-[2rem]'>{submenu ?<FaTimes className='text-gray-400 text-[12px]'/>: <FaMinus className='text-gray-400 text-[12px]'/>}</p>
