@@ -7,6 +7,7 @@ import Montauk from "../../molecules/MonTauk";
 import Sliders from "../../molecules/Slider";
 import "./HomePage.scss";
 import { sliderImg } from "../../data";
+import Footer from "../../organism/Footer";
 
 
 const HomePage = () => {
@@ -42,10 +43,10 @@ const HomePage = () => {
             <Happenings/>
             <Experience/>
           <div>
-          <img src="/public/images/stones.webp" alt=""  className="h-[15rem] w-full object-cover"/>
+          <img src="/public/images/stones.webp" alt=""  className="h-[23rem] mt-4 w-full object-cover"/>
           </div>
 
-          <></>
+          <Footer/>
       </main>
     </div>
   );
