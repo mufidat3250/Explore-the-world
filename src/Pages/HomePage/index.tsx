@@ -1,5 +1,5 @@
 import Button from "../../attom/Button";
-import NavBar from "../../attom/NavBar";
+import NavBar from "../../organism/NavBar";
 import Experience from "../../molecules/Experiences";
 import Happenings from "../../molecules/Happenings";
 import HeroSection from "../../molecules/HeroSection/HeroSection";
@@ -8,13 +8,13 @@ import Sliders from "../../molecules/Slider";
 import "./HomePage.scss";
 
 const sliderImg = [
-  "/public/images/slider1.webp",
-  "/public/images/slider2.webp",
-  "/public/images/slider3.webp",
-  "/public/images/slider4.webp",
-  "/public/images/slider5.webp",
-  "/public/images/slider6.webp",
-  "/public/images/slider7.webp",
+  "/images/slider1.webp",
+  "/images/slider2.webp",
+  "/images/slider3.webp",
+  "/images/slider4.webp",
+  "/images/slider5.webp",
+  "/images/slider6.webp",
+  "/images/slider7.webp",
 ];
 const HomePage = () => {
   return (

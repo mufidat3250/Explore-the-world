@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./NavBar.scss";
 import { FaAlignJustify } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
+import {clsx} from 'clsx'
 
 const NavBar = () => {
   const tabs = [
@@ -13,8 +14,11 @@ const NavBar = () => {
     "experiences",
     "reserve",
   ];
-  const [open, setOpen] = useState(false);
-  console.log('open')
+  const [isMobileTabOpen, setIsMobileTabOpen] = useState(false)
+  const handleMobileTabSwitch = ()=>{
+    setIsMobileTabOpen((prev)=> !prev)
+  }
+  console.log(isMobileTabOpen)
   return (
     <div className="NavBar">
       <div className="nav-wrapper">
@@ -28,16 +32,18 @@ const NavBar = () => {
             </a>
           ))}
         </div>
-        <FaAlignJustify className="menu" onClick={() => {
-          setOpen(!open)         
-        }} />
-<div className=" tabs mobile">
-            <FaTimes className="cancel"/>
+        <FaAlignJustify className="menu" onClick={handleMobileTabSwitch} />
+<div className= { `mobile ${isMobileTabOpen ? 'right-0':'-right-[150%]'} `}>
+         <div className="flex flex-col items-center">
+         <FaTimes className="cancel" onClick={()=>setIsMobileTabOpen(false)}/>
+            <div className="h-screen flex flex-col gap-y-6 items-center mt-5">
             {tabs.map((tab, index) => (
-              <a key={index} className="tabb">
+              <a key={index} className="tabb" onClick={handleMobileTabSwitch}>
                 {tab}
               </a>
             ))}
+            </div>
+         </div>
           </div>
 </div>
       {/* <div className=""></div> */}
