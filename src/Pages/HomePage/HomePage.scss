@@ -1,3 +1,7 @@
-// .homePage{
-//     @apply h-full;
-// }
+.homePage{
+    @apply h-screen flex flex-col overflow-hidden;
+
+    .main-section{
+        @apply flex-1 overflow-auto;
+    }
+}

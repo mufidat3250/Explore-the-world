@@ -8,6 +8,10 @@ module.exports = {
     extend: {
       colors:{
         primary:'#fbf3ed'
+      },
+      backgroundImage:{
+        heroImg:"url('/images/heroimg2.jpg')",
+        montauk:"url('/images/montauk.jpg')"
       }
     },
   },

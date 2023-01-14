@@ -1,0 +1,15 @@
+.hero-wrapper{
+    @apply h-screen;
+    .herosection{
+        @apply w-full h-[80vh] relative bg-heroImg bg-no-repeat bg-cover flex flex-col items-center justify-center ; 
+        h4{
+            @apply text-[#9b5835] shadow-sm  font-bold m-0 p-0;
+        }
+        h1{
+            @apply text-white shadow-sm  font-bold m-0 p-0 text-[7rem];
+        }        
+    }
+    .desc{
+        @apply  text-[#6f4d35] max-w-[52rem] text-[1.375rem] pl-[5rem] pb-[2.25rem] pt-[1.25rem];
+    }
+}

@@ -1,8 +1,9 @@
 import React from 'react'
+import './Button.scss'
 
-const Button = () => {
+const Button = ({title}:{title:string}) => {
   return (
-    <div>Button</div>
+    <div className='btn-wrapper'>{title}</div>
   )
 }
 
