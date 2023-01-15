@@ -7,12 +7,12 @@ const Footer = () => {
   return (
     <div className="footerWraper ">
      <div className="footer-content">
-     <div className="flex  gap-[1rem]">
+     <div className="flex gap-[1rem]">
       <div className="">
       <FooterLogo />
       </div>
         <div className="max-w-[10rem] text-[#dac0a9]">
-          <i><p className="max-w-[10rem] lg:max-w-[12rem] text-[14px] md:text-[13px] font-bold ">21 Oceanview Terrace <br /> Montauk, NY 11954 <br /> 631 — 668 — 2050</p></i>
+          <i><p className="max-w-[12rem] lg:max-w-[12rem] text-[14px] md:text-[13px] font-bold ">21 Oceanview Terrace <br /> Montauk, NY 11954 <br /> 631 — 668 — 2050</p></i>
           <i className="text-[10px] font-bold">hello @ marrammontauk . com</i>
         </div>
       </div>
