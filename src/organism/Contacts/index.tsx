@@ -5,7 +5,7 @@ import "./Contact.scss";
 
 const Contact = () => {
   return (
-    <div className=" max-w-[89%] mx-auto lg:max-w-[50%] lg:ml-[4rem] pt-[4.5rem] pb-[4rem] lg:pt-[5.625rem] lg:pb-[5.25rem]">
+    <div className=" max-w-[89%] mx-auto lg:max-w-[50%] lg:ml-[4rem] pt-[4.5rem] pb-[4rem] lg:pt-[5.625rem] lg:pb-[5.25rem]" id="contact">
       <div className="text-[#d7726a]">
         <p className="text-[1.375rem]">
           <strong className="text-[1.375rem]">STAY IN TOUCH </strong>{" "}

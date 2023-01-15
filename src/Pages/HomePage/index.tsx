@@ -10,18 +10,19 @@ import { sliderImg } from "../../data";
 import Footer from "../../organism/Footer";
 import Contact from "../../organism/Contacts";
 import { experience, secExperience} from "../../data";
+import Quotations from "../../organism/Quotation";
 
 const HomePage = () => {
   return (
     <div className="homePage">
-      <NavBar />
+      <NavBar/>
       <main className="main-section">
         <HeroSection />
         <div className="mt-[5rem] w-[98%] mx-auto">
           <Sliders>
             {sliderImg.map((slider) => (
               <div className="h-[17rem]">
-                <img src={slider} className="h-full w-full object-cover" />
+                <img src={slider} className="h-full w-full object-cover"/>
               </div>
             ))}
           </Sliders>
@@ -44,8 +45,8 @@ const HomePage = () => {
             <Experience data={experience}/>
 
           <div>
-            {/* <Quotations/> */}
-            <div className="pt-8"><Montauk title="MONTAUK" bg="/images/grassmarram.jpg"/></div>
+            <Quotations/>
+            <Montauk title="MONTAUK" bg="/images/grassmarram.jpg"/>
               <div className="md:max-w-[55%] lg:max-w-[47%] px-4 md:pl-12 text-[1.375rem] pt-[4.875rem] pb-[6.875rem] space-y-[2.0625rem] text-[#654b37]">
                 <p>Named after the wild grass that grows on the sand dunes surrounding the property, <span className="border-[1px] border-[#654b37] py-[2px]">marram</span> takes cues from Montauk’s natural beauty with its light and muted color palette. The property provides access to the best of both worlds—the nature that makes Montauk so special and the cultural offerings that put it on the map.</p>
                 <p className="">

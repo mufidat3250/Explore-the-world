@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import Slider from 'react-slick';
+import QuotationRight from '../../attom/Vectors/QoutationRightIcon';
+import QuotationLeft from '../../attom/Vectors/QuotaionLeft';
 
 const QSLider = ({
   children,
@@ -10,11 +12,10 @@ const QSLider = ({
   heading?: string;
 }) => {
   let settings = {
-    infinite:true,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    dots: false,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePreviousArrow />,
    
@@ -40,7 +41,24 @@ export const ButtonSlider = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
       <Slider {...settings} className="relative w-full">
-        {children}
+      <div>
+            <h3>1</h3>
+          </div>
+          <div>
+            <h3>2</h3>
+          </div>
+          <div>
+            <h3>3</h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
       </Slider>
     </div>
   );
@@ -56,7 +74,7 @@ const SampleNextArrow = ({
       className=" absolute right-[10px] top-[0] bottom-0  flex justify-center items-center cursor-pointer  "
       onClick={onClick}
     >
-      <FaChevronRight className='text-[4rem] text-white' />
+      <QuotationRight className='text-[4rem] text-white' />
     </div>
   );
 };
@@ -71,7 +89,7 @@ const SamplePreviousArrow = ({
       className=" cursor-pointer absolute left-[10px] top-[0] bottom-0  z-50 flex justify-center items-center"
       onClick={onClick}
     >
-      <FaChevronLeft className=' text-white text-[4rem]' />
+      <QuotationLeft className=' text-white text-[4rem]' />
     </div>
   );
 };
