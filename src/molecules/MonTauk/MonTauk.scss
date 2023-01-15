@@ -1,5 +1,5 @@
 .montauk-wrapper{
-    @apply h-[30rem]  relative bg-montauk bg-no-repeat bg-cover flex justify-center items-center;
+    @apply  h-[10rem] md:h-[30rem]  relative bg-montauk bg-no-repeat bg-cover flex justify-center items-center;
     .text{
         @apply absolute inset-0 w-full grid items-center text-center text-white uppercase
     }

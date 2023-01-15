@@ -5,7 +5,7 @@ import Menu from '../../attom/Menu.tsx'
 
 const Happenings = () => {
   return (
-    <div className='happenings-wrapper'>
+    <div className='happenings-wrapper' id='happenings'>
         <h1>HAPPENINGS</h1>
         <div className='tourism'>
             <img src="/images/happenings.webp" alt="" />

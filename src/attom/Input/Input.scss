@@ -1,0 +1,6 @@
+.input-wrapper{
+    @apply flex border-b-[1px] border-[#897e6d];
+    input{
+        @apply border-none outline-none w-full flex-grow bg-transparent text-[1rem] font-[400] font-serif text-[#897e6d] placeholder:text-[#875835] py-1; 
+    }
+}

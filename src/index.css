@@ -10,6 +10,7 @@ html body{
   min-height: 100vh;
   background-color: #fbf3ed;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 @media (min-width:'1990px') {
   :root{

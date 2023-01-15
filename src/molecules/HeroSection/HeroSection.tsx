@@ -1,9 +1,9 @@
-import React from 'react'
+
 import './HeroSection.scss'
 
 const HeroSection = () => {
   return (
-    <div className='hero-wrapper'>
+    <div className='hero-wrapper' id='home'>
       <div className="herosection">
       <h4>Here is to Life's simple pleasures this </h4>
       <h1>WINTER</h1>

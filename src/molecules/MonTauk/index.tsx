@@ -1,8 +1,8 @@
 import React from 'react'
 import './MonTauk.scss'
-const Montauk = () => {
+const Montauk = ({bg, title}:{bg:string, title:string}) => {
   return (
-    <div className="montauk-wrapper">
+    <div className="montauk-wrapper" style={{backgroundImage:`url(${bg})`}}> 
     <div className="text">
       <svg viewBox="0 0 120 16" className="w-full px-8 h-full">
         <text
@@ -12,7 +12,7 @@ const Montauk = () => {
           fill="#fbf2ed"
           className="font-sans font-bold"
         >
-          MONTAUK
+          {title}
         </text>
       </svg>
     </div>
@@ -21,3 +21,4 @@ const Montauk = () => {
 }
 
 export default Montauk
+

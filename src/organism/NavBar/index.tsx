@@ -8,13 +8,11 @@ import Locations from "../../attom/Vectors/Location";
 
 const NavBar = () => {
   const tabs = [
-    "stay",
-    "dine",
-    "refresh",
-    "explore",
-    "offers",
-    "experiences",
-    "reserve",
+    {title:'Home', link:'#home'},
+    {title:'ROOMS', link:'#room'},
+    {title:'HAPPENINGS', link:'#happenings'},
+    {title:'EXPERIENCE', link:'#experience'},
+    {title:'Contact', link:'#contact'},
   ];
   const [isMobileTabOpen, setIsMobileTabOpen] = useState(false)
   const handleMobileTabSwitch = ()=>{
@@ -22,7 +20,7 @@ const NavBar = () => {
   }
   console.log(isMobileTabOpen)
   return (
-    <div className="NavBar">
+    <div className="NavBar ">
       <div className="nav-wrapper">
         <a href="#" className="logo">
           MARRAM
@@ -30,8 +28,8 @@ const NavBar = () => {
 
         <div className="tabs">
           {tabs.map((tab, index) => (
-            <a key={index} className="tab">
-              {tab}
+            <a key={index} className="tab" href={tab.link}>
+              {tab.title}
             </a>
           ))}
         </div>
@@ -44,8 +42,8 @@ const NavBar = () => {
          </div>
             <div className="h-screen flex flex-col gap-y-6 items-center mt-5">
             {tabs.map((tab, index) => (
-              <a key={index} className="tabb" onClick={handleMobileTabSwitch}>
-                {tab}
+              <a key={index} className="tabb" onClick={handleMobileTabSwitch} href={tab.link}>
+                {tab.title}
               </a>
             ))}
             <div className="flex flex-col text-center text-white">

@@ -2,9 +2,6 @@ import React from 'react'
 import  Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import RightArrow from '../../attom/Vectors/RightArrow';
-import LeftArrow from '../../attom/Vectors/ArrowLeft';
-import ArrowLeft from '../../attom/Vectors/ArrowLeft';
 import {FaChevronLeft, FaChevronRight} from 'react-icons/fa'
 
 // import { investors } from '../../data';
@@ -32,7 +29,6 @@ const Sliders = ({
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
         },
       },
       {
