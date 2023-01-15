@@ -40,7 +40,7 @@ const HomePage = () => {
             <Button title="OUR ROOMS" />
           </div>
         </div>
-            <Montauk title="MONTAUK" bg="/public/images/montauk.jpg"/>
+            <Montauk title="MONTAUK" bg="/images/montauk.jpg"/>
             <Happenings/>
             <Experience data={experience}/>
 
