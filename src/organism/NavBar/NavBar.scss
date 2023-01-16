@@ -16,7 +16,7 @@
         
     }
     .mobile{
-        @apply bg-[#897e6d]  md:hidden absolute  top-0  h-screen cursor-pointer   flex-col  hover:font-[700]  z-[1000] w-full  pt-[2rem] px-[2rem] uppercase transition-all duration-500;
+        @apply bg-[#897e6d]  md:hidden absolute  top-0 cursor-pointer   flex-col  hover:font-[700] z-[1000] w-full  pt-[2rem] px-[2rem] uppercase transition-all duration-500;
         .cancel{
             @apply text-white self-end cursor-pointer ;
         }

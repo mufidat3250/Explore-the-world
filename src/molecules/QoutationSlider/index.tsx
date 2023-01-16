@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import Slider from 'react-slick';
 import QuotationRight from '../../attom/Vectors/QoutationRightIcon';
 import QuotationLeft from '../../attom/Vectors/QuotaionLeft';
@@ -30,39 +29,6 @@ const QSLider = ({
 };
 
 export default QSLider;
-
-export const ButtonSlider = ({ children }: { children: React.ReactNode }) => {
-  let settings = {
-    Infinity: true,
-    // dots: true,
-    slideToShow: 3,
-    slidesToScroll: 1,
-  };
-  return (
-    <div>
-      <Slider {...settings} className="relative w-full">
-      <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-      </Slider>
-    </div>
-  );
-};
 
 const SampleNextArrow = ({
   onClick,

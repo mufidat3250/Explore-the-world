@@ -2,7 +2,6 @@ import  { useState } from "react";
 import "./NavBar.scss";
 import { FaAlignJustify } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
-import {clsx} from 'clsx'
 import Phone from "../../attom/Vectors/Phone";
 import Locations from "../../attom/Vectors/Location";
 
@@ -40,7 +39,7 @@ const NavBar = () => {
           <p className="text-white">MARRAM</p>
          <FaTimes className="cancel" onClick={()=>setIsMobileTabOpen(false)}/>
          </div>
-            <div className="h-screen flex flex-col gap-y-6 items-center mt-5">
+            <div className="flex flex-col gap-y-6 items-center mt-5">
             {tabs.map((tab, index) => (
               <a key={index} className="tabb" onClick={handleMobileTabSwitch} href={tab.link}>
                 {tab.title}

@@ -1,4 +1,3 @@
-import React from "react";
 import FooterLogo from "../../attom/Vectors/FooterLogo";
 import './Footer.scss'
 
