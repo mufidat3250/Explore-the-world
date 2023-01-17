@@ -2,19 +2,15 @@ import React from 'react'
 import './MonTauk.scss'
 const Montauk = ({bg, title}:{bg:string, title:string}) => {
   return (
-    <div className="montauk-wrapper" style={{backgroundImage:`url(${bg})`}}> 
-    <div className="text">
-      <svg viewBox="0 0 120 16" className="w-full px-8 h-full">
-        <text
-          x="50%"
-          y="16"
-          text-anchor="middle"
-          fill="#fbf2ed"
-          className="font-sans font-bold"
-        >
-          {title}
-        </text>
-      </svg>
+    <div className="montauk-wrapper"> 
+    <div className='absolute font-[700] md:text-[8rem] text-[3.5rem] lg:text-[10rem] text-white'>
+    <h1>MONTACK</h1>     
+
+    </div>
+    <div className=" h-full w-full">
+    <video className="  object-cover h-full w-full" muted loop autoPlay>
+      <source src="videos/montauk.mp4" type="video/mp4"/>
+</video>
     </div>
   </div>
   )

@@ -32,7 +32,11 @@ const NavBar = () => {
             </a>
           ))}
         </div>
-        <FaAlignJustify className="menu" onClick={handleMobileTabSwitch} />
+
+       <div className="flex items-center gap-4 font-bold text-[#b75a56]">
+        <h4>Reserve</h4>
+       <FaAlignJustify className="menu" onClick={handleMobileTabSwitch} />
+       </div>
 <div className= { `mobile ${isMobileTabOpen ? 'right-0':'-right-[150%]'}`}>
          <div className="flex flex-col items-center">
          <div className="w-full flex justify-between">
@@ -59,7 +63,7 @@ const NavBar = () => {
          </div>
           </div>
 </div>
-      {/* <div className=""></div> */}
+     
     </div>
   );
 };

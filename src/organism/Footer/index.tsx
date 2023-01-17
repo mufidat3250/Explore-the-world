@@ -10,13 +10,13 @@ const Footer = () => {
       <div className="">
       <FooterLogo />
       </div>
-        <div className="max-w-[10rem] text-[#dac0a9]">
-          <i><p className="max-w-[12rem] lg:max-w-[12rem] text-[14px] md:text-[13px] font-bold ">21 Oceanview Terrace <br /> Montauk, NY 11954 <br /> 631 — 668 — 2050</p></i>
-          <i className="text-[10px] font-bold">hello @ marrammontauk . com</i>
+        <div className="max-w-[13rem] text-[#ddccc2]">
+          <i><p className="max-w-[14rem] text-[15px] font-bold ">21 Oceanview Terrace <br /> Montauk, NY 11954 <br /> 631 — 668 — 2050</p></i>
+          <i className="text-[12px] font-bold">hello @ marrammontauk . com</i>
         </div>
       </div>
-      <div className="max-w-[17rem]  text-[10px] grid grid-cols-2 md:text-[14px] text-right space-x-[1rem]  text-[#dac0a9] font-bold -order-1 md:order-1">
-            {link.map((link, index)=> <a className="no-wrap">{link}</a>)}
+      <div className="max-w-[30rem]  text-[15px] grid grid-cols-2 md:text-[14px] text-right space-x-[1rem]  text-[#ddccc2] font-bold -order-1 md:order-1">
+            {link.map((link, index)=> <a className="no-wrap" key={index}>{link}</a>)}
       </div>
      </div>
     </div>

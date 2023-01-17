@@ -62,7 +62,7 @@ const changeText = (index:number)=>{
             </div>
           ))}
         </div>
-        <div className="flex text-[#e39881] justify-center mt-[4rem] ">{data[currentIndex].title}</div>
+        <div className="flex text-[#e39881] justify-center mt-[4rem] md:hidden duration-500 animate translate-x-3">{data[currentIndex].title}</div>
       </div>
     </div>
   );
