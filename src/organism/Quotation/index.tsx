@@ -42,7 +42,7 @@ const changeText = (index:number)=>{
         </p>
           <div className="flex items-center  lg:space-x-[7.3125rem]" >
             <QuotationLeft onClick={prevSlide}/>
-              <div className="w-[59.9375rem] text-center text-[1.375rem]">
+              <div className="w-[59.9375rem] text-center text-[1.375rem] text-[#897e7c]">
                <i> {data[currentIndex].desc}</i>
               </div>
           <QuotationRight onClick={nextSlide} className=''/>
