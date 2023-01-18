@@ -1,5 +1,4 @@
 import React from 'react'
-// import '../MonTauk/MonTauk.scss'
 const Marram
  = ({bg, title}:{bg:string, title:string}) => {
   return (

@@ -1,4 +1,5 @@
-
+@import '../public/HeldaneDisplay/heldandisplay.css';
+@import '../public/mabry-regular/mabry.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,100;1,600&display=swap');
 @import url('//db.onlinewebfonts.com/c/e4397c6cf12af9f58d46e124d18d6d93?family=Mabry');
 @tailwind base;
@@ -7,7 +8,7 @@
 html body{
   margin: 0;
   padding: 0;
-  font-family: 'Mabry';
+  font-family:'Heldene display','mabry' ,'sans', 'serif';
   min-height: 100vh;
   background-color: #fbf3ed;
   overflow: hidden;

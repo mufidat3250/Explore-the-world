@@ -1,35 +1,33 @@
-.NavBar{
-    @apply flex justify-between  py-4 bg-primary relative z-50 md:px-12 px-4 border-b-[#e0d2c9] border-[1px];
-    text-decoration: none;
-    user-select: none;  
-.nav-wrapper{
-    @apply  justify-between flex  w-full mx-auto items-center;
-    .logo{
-        @apply text-[#d77256] text-[1.375rem] font-bold cursor-pointer;
+.NavBar {
+  @apply flex justify-between  py-4 bg-primary relative z-50 md:px-12 px-4 border-b-[#e0d2c9] border-[1px];
+  text-decoration: none;
+  user-select: none;
+  .nav-wrapper {
+    @apply justify-between flex  w-full mx-auto items-center;
+    .logo {
+      @apply text-[#d77256] text-[1.375rem] font-bold cursor-pointer;
     }
-    .tabs{
-        @apply flex space-x-[2.0625rem]  uppercase;
+    .tabs {
+      @apply flex space-x-[2.0625rem]  uppercase;
 
-        .tab{
-            @apply hidden md:block cursor-pointer text-gray-500 hover:text-black  text-[1rem];
-        }
-        
+      .tab {
+        @apply hidden md:block cursor-pointer text-gray-500 hover:text-black  text-[1rem];
+      }
     }
-    .mobile{
-        @apply bg-[#897e6d]  md:hidden absolute  top-0 cursor-pointer   flex-col  hover:font-[700] z-[1000] w-full  pt-[2rem] px-[2rem] uppercase transition-all duration-500 h-screen;
-        .cancel{
-            @apply text-white self-end cursor-pointer;
-        }
-        .tabb{
-            @apply  cursor-pointer hover:text-black hover:font-[700] z-[1000] text-white;
-        }
+    .mobile {
+      @apply bg-[#897e6d]  md:hidden absolute  top-0 cursor-pointer   flex-col  hover:font-[700] z-[1000] w-full  pt-[2rem] px-[2rem] uppercase transition-all duration-500 h-screen;
+      .cancel {
+        @apply text-white self-end cursor-pointer;
+      }
+      .tabb {
+        @apply cursor-pointer hover:text-black hover:font-[700] z-[1000] text-white;
+      }
     }
-    .menu{
-        @apply md:hidden;
+    .menu {
+      @apply md:hidden;
     }
-  
-}
-a{
+  }
+  a {
     text-decoration: none;
-}
+  }
 }

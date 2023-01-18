@@ -29,9 +29,9 @@ const HomePage = () => {
           </Sliders>
         </div>
 
-        <div className="flex flex-col space-y-5 md:space-y-0 md:flex-row max-w-[85%] justify-between mx-auto my-20 md:my-[4.25rem]" id={'room'}>
+        <div className="flex flex-col space-y-5 md:space-y-0 md:flex-row max-w-[85%] justify-between mx-auto my-20 md:my-[4.25rem] font-[Heldene-display]" id={'room'}>
           <div>
-            <p className="md:text-[1.375rem] text-[#6f4d35] max-w-[51rem]">
+            <p className="md:text-[1.375rem] text-[#6f4d35] max-w-[51rem] font-[Heldene-display]">
               <strong className="text-[#d77560]"> STAY</strong> Our 96-room
               boutique resort has both an innate and intimate sense of place
               that evokes the spirit of its natural, untouched landscape.

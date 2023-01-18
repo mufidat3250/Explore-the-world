@@ -1,4 +1,3 @@
-import React from 'react'
 import './Hapenings.scss'
 import {happenings} from './../../data'
 import Menu from '../../attom/Menu.tsx'
