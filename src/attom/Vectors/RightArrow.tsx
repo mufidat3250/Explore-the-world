@@ -5,6 +5,10 @@ const RightArrow = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 20 20"
+    style={{
+      // @ts-ignore
+      enableBackground: "new 0 0 20 20",
+    }}
     xmlSpace="preserve"
     fill="#fbf2ec"
     width={32}

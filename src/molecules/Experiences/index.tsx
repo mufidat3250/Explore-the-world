@@ -6,7 +6,7 @@ const Experience = ({data}:{data:any}) => {
     <div className='experience' id={'experience'}>
         {data.map((data:any, index:number)=> <div className='' key={index}>
             {index % 2 == 0 && <div className='even-wrapper'>
-                <img src={data.img} alt=""  className='w-full object-cover'/>
+                <img src={data.img} alt=""  className=''/>
                 <div className='even-desc'>
                    <> {data.desc}</>
                    <div className='mt-[2.8125rem]'>
@@ -22,7 +22,10 @@ const Experience = ({data}:{data:any}) => {
                    {data.button}
                    </div>
                     </div>
-                    <img src={data.img} alt="" className=' order-1 lg:order-2' />
+                  <div className='odd-img'>
+                  
+                  <img src={data.img} alt="" className=' w-full h-full' />
+                  </div>
 
                 </div>
             }

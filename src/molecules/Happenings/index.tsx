@@ -10,7 +10,7 @@ const Happenings = () => {
         <div className='tourism'>
             <img src="/images/happenings.webp" alt="" />
             <div>
-            {happenings.map((data, index)=> <Menu data={data} key={`menu--${index}`}/>)}
+            {happenings.map((data, index)=> <Menu data={data} key={`menu--${index}`} lastIndex={index=== happenings.length-1}/>)}
             </div>
         </div>
     </div>

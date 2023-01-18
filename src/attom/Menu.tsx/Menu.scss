@@ -1,6 +1,28 @@
 .menu-wrapper{
-    @apply flex flex-col border-t-[1px] py-[1rem]  cursor-pointer;
+    @apply flex flex-col border-t-[1px] py-[1rem] border-[#e0d2c9]  cursor-pointer;
     .single-detail{
         @apply flex justify-between ;
+    }
+    .plusIcon{
+        @apply w-[20px] h-[1px] bg-black relative;
+
+        &::after{
+            @apply h-[20px] w-[1px] bg-black absolute top-[-1050%]  left-[50%];
+            content: '';
+        }
+    }
+    .timesIcon{
+        @apply relative;
+        &::before{
+            @apply w-[1px] h-[20px] bg-black absolute right-4 ;
+            content: '';
+            transform: rotate(45deg);
+        }
+
+        &::after{
+            @apply h-[20px] w-[1px] bg-black absolute right-4;
+            content: '';
+            transform: rotate(-45deg);
+        }
     }
 }

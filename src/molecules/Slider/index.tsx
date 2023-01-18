@@ -3,6 +3,8 @@ import  Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {FaChevronLeft, FaChevronRight} from 'react-icons/fa'
+import RightArrow from '../../attom/Vectors/RightArrow';
+import ArrowLeft from '../../attom/Vectors/ArrowLeft';
 
 // import { investors } from '../../data';
 
@@ -85,7 +87,7 @@ const SampleNextArrow = ({
       className=" absolute right-[10px] top-[0] bottom-0  flex justify-center items-center cursor-pointer  "
       onClick={onClick}
     >
-      <FaChevronRight className='text-[4rem] text-white' />
+      <RightArrow className='text-[4rem] text-white' />
     </div>
   );
 };
@@ -100,7 +102,7 @@ const SamplePreviousArrow = ({
       className=" cursor-pointer absolute left-[10px] top-[0] bottom-0  z-50 flex justify-center items-center"
       onClick={onClick}
     >
-      <FaChevronLeft className=' text-white text-[4rem]' />
+      <ArrowLeft className=' text-white text-[4rem]' />
     </div>
   );
 };

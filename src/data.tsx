@@ -74,11 +74,11 @@ export const sliderImg = [
     {
         desc:<p> <strong className="text-[#d77256]">OFFERS</strong> Explore our exclusive limited-time promotions and experiential packages, designed to help you make the most of your stay.</p>,
         button:<div className="max-w-[13.125rem]"><Button title={"Special Offers"}/></div>,
-        img:'/images/refresh.webp'
+        img:'/images/offers.webp'
     },
     {
         desc:<p> <strong className="text-[#d77256]">GROUPS & GATHERINGS</strong> We are always happy to host special events. Reach out to discuss our options and availability.</p>,
         button:<div className="max-w-[13.125rem]"><Button title={"CONTACT US"}/></div>,
-        img:'/images/dine.webp'
+        img:'/images/groups.webp'
     },   
 ]

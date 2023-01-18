@@ -2,18 +2,20 @@
     @apply flex flex-col;
 
     .even-wrapper{
-        @apply grid grid-rows-1 lg:grid-cols-2 w-full;
+        @apply grid grid-rows-1 lg:grid-cols-2;
 
         .even-desc{
-            @apply px-[2.5rem] md:px-[3.5rem] flex flex-col justify-center text-[1.375rem]  text-base py-[2rem] lg:py-0 md:mt-0  md:mb-0 mb-4;
+            @apply px-[2.5rem] md:px-[3.5rem] flex flex-col justify-center text-[1.375rem] text-[#6f4d35] py-[2rem] lg:py-0 md:mt-0  md:mb-0 mb-4 ;
         }
     }   
 }
 .odd-wrapper{
     @apply grid grid-rows-1 lg:grid-cols-2;
-
+    .odd-img{
+        @apply order-1 lg:order-2;
+    }
     .odd-desc{
-        @apply  px-[2.5rem] md:px-[3.5rem] flex flex-col justify-center text-[1.375rem]  text-base  md:mt-0  py-[2rem] lg:py-0 md:mb-0 mb-4 order-2 ;
+        @apply  px-[2.5rem] md:px-[3.5rem] flex flex-col justify-center text-[1.375rem] text-[#6f4d35]  md:mt-0  py-[2rem] lg:py-0 md:mb-0 mb-4 order-2 ;
     }
 }
 // bg-red-500  flex item-center text-base  flex-col justify-center text-[1.375rem] max-w-[90%] mx-auto order-2 lg:order-1 mt-8 md:mt-0 md:mb-0 mb-4
