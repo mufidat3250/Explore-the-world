@@ -18,7 +18,7 @@ const Happenings = () => {
     <div className='happenings-wrapper' id='happenings'>
         <h1>HAPPENINGS</h1>
         <div className='tourism'>
-            <img src={happenings[swtichImg].img} alt="" />
+            <img src={'/images/happening-7.webp '} alt="" />
             <div>
             {happenings.map((data, index)=> <Menu data={data} key={`menu--${index}`} lastIndex={index=== happenings.length-1}/>)}
             </div>
