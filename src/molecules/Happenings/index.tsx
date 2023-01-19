@@ -5,7 +5,7 @@ import { accordionImg } from '../../entity/accordion'
 
 const Happenings = () => {
   const swtichImg = accordionImg.use(); 
-  console.log(happenings[swtichImg].img, 'check')
+  // console.log(happenings[swtichImg].img, 'check')
    return (
     <div className='happenings-wrapper' id='happenings'>
         <h1>HAPPENINGS</h1>
