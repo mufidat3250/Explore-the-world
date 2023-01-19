@@ -11,7 +11,7 @@ const defaultState:defaultStateProps ={
 export const storedData = typeof window !== 'undefined' && window.localStorage.getItem('imageIndex');
 
 export const imgIndex = storedData ? JSON.parse(storedData):defaultState;
-
+console.log(imgIndex, 'entity')
 export const accordionImg = entity(imgIndex, [persistence('imgIndex')])
 export const setImg = (value:number)=>{
         accordionImg.set(value)
