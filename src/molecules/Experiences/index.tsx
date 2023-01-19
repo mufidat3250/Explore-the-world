@@ -9,7 +9,7 @@ const Experience = ({ data }: { data: any }) => {
             <div className="even-wrapper">
               <img src={data.img} alt="" className="" />
               <div className="even-desc">
-                <> {data.desc}</>
+                 {data.desc}
                 <div className="mt-[2.8125rem]">{data.button}</div>
               </div>
             </div>

@@ -1,4 +1,3 @@
-
 import './HeroSection.scss'
 import { useRef } from 'react'
 

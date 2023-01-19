@@ -25,13 +25,13 @@ const Menu = ({data, lastIndex}: { data: any; lastIndex: boolean }) => {
             </h3>
           </i>
         </div>
-        <p className="text-[2rem]">
+        <div className="text-[2rem]">
           {submenu ? (
             <div className="timesIcon"></div>
           ) : (
             <div className="plusIcon"></div>
           )}
-        </p>
+        </div>
       </div>
 
       {submenu && <p className="mt-[1rem] font-[Heldane-display] text-[1.375rem] text-[#6f7071]">{data.desc}</p>}
