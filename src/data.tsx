@@ -56,7 +56,7 @@ export const happenings = [
 export const experience = [
   {
     desc: (
-      <p>
+      <p className="font-[Heldane display]"> 
         {" "}
         <strong className="text-[#d77256] font-[mabry]">REFRESH</strong> Unwind to the
         rhythmic sounds of the waves on the shore, walk the beach to nearby

@@ -8,7 +8,7 @@
 html body{
   /* margin: 0; */
   padding: 0;
-  font-family:'Heldene display','mabry';
+  font-family:'mabry','Heldane display';
   min-height: 100vh;
   background-color: #fbf3ed;
   overflow: hidden;
