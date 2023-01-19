@@ -23,19 +23,19 @@
 
 @font-face {
   font-family: "Heldane Display";
-  src:url("https://marrammontauk.com/fonts/HeldaneTextWeb-Bold.woff2") format("woff2");
+  src:url("./HeldaneTextWeb-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: "Heldene Display";
-  src:url("https://marrammontauk.com/fonts/HeldaneTextWeb-Regular.woff2") format("woff2");
+  src:url("./HeldaneTextWeb-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Heldane Display";
-  src:url("https://marrammontauk.com/fonts/HeldaneTextWeb-RegularItalic.woff2") format("woff2");
+  src:url("./HeldaneTextWeb-RegularItalic.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
 }
