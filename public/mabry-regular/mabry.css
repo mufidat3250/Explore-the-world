@@ -1,14 +1,14 @@
 @font-face {
     font-family: "mabry";
-    src: local("mabry bold"),
-      url("/mabry-bold-pro.woff2") format("woff2");
+    src: local("HeldaneTextWeb bold"), local("HeldaneTextWeb-bold"),
+      url("/mabry-bold-pro.woff2") format("truetype");
     font-weight: bold;
     font-style: normal;
   }
   @font-face {
     font-family: "mabry";
-    src: local("mabry regular"),
-      url("/mabry-regular-pro.woff2") format("woff2");
+    src: local("HeldaneTextWeb regular"), local("HeldaneTextWeb-regular"),
+      url("/mabry-regular-pro.woff2") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
