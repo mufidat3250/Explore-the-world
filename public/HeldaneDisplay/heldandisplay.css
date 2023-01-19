@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Heldane Display";
   src: local("Heldane Display Bold"), local("Heldane Display-bold"),
     url("/HeldaneTextWeb-Bold.woff2") format("truetype");
@@ -16,6 +16,26 @@
   font-family: "Heldane Display";
   src: local("Heldane Display italic"), local("Heldane-Display-italic"),
     url("/HeldaneTextWeb-RegularItalic.woff2") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+} */
+
+
+@font-face {
+  font-family: "Heldane Display";
+  src:url("https://marrammontauk.com/fonts/HeldaneTextWeb-Bold.woff2") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Heldene Display";
+  src:url("https://marrammontauk.com/fonts/HeldaneTextWeb-Regular.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Heldane Display";
+  src:url("https://marrammontauk.com/fonts/HeldaneTextWeb-RegularItalic.woff2") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
