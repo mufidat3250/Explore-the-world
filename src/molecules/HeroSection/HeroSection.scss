@@ -1,19 +1,19 @@
 .hero-wrapper{
     @apply h-screen;
     .herosection{
-        @apply w-full h-[70vh] md:h-[80vh] relative bg-no-repeat bg-cover flex flex-col items-center justify-center ; 
+        @apply w-full h-[70vh] md:h-[90%] relative bg-no-repeat bg-cover flex flex-col items-center justify-center ; 
 
         .hero-title{
-            @apply absolute flex flex-col justify-center items-center;
+            @apply absolute flex flex-col justify-center items-center font-[mabry];
         }
         h4{
             @apply text-white shadow-sm  font-bold m-0 p-0 text-[1.375rem] text-center max-w-[15rem]  md:max-w-[27rem];
         }
         h1{
-            @apply text-white shadow-sm  font-bold m-0 p-0 text-[4.5rem] md:text-[5rem] lg:text-[7rem];
+            @apply text-white shadow-sm  font-bold mt-[-50px] p-0 text-[4.5rem] md:text-[5rem] lg:text-[15rem] font-['mabry'];
         }        
     }
     .desc{
-        @apply  text-[#6f4d35] max-w-[52rem] px-6 md:text-[1.375rem] md:pl-[5rem] pb-[2.25rem] pt-[1.25rem] font-[Heldene-display];
+        @apply  text-[#6f4d35] max-w-[52rem] px-6 md:text-[1.375rem] md:pl-[5rem] pb-[3.25rem] pt-[2.25rem] font-[Heldene-display];
     }
 }

@@ -1,18 +1,20 @@
 import { useState } from "react";
 import "./Menu.scss";
-
-const Menu = ({ data, lastIndex }: { data: any; lastIndex: boolean }) => {
-  console.log(data);
+import { setImg } from "../../entity/accordion";
+const Menu = ({data, lastIndex}: { data: any; lastIndex: boolean }) => {
   const [submenu, setsubmenu] = useState(false);
-  const showSubmenu = () => setsubmenu((prev) => !prev);
-
+ 
   return (
     <div
       className={`menu-wrapper ${
         lastIndex && "border-b-[1px] py-[1rem] border-[#e0d2c9] "
       }`}
     >
-      <div className="single-detail" onClick={showSubmenu}>
+      <div className="single-detail" onClick={()=> {
+        setsubmenu(!submenu)
+        setImg(data.id)
+
+      }}>
         <div className=" flex flex-col">
           <p className="text-[#6f7071] text-[1rem] font-[Heldane-display]">
             {data.title}
@@ -32,7 +34,7 @@ const Menu = ({ data, lastIndex }: { data: any; lastIndex: boolean }) => {
         </p>
       </div>
 
-      {submenu && <p className="mt-[1rem] font-serif">{data.desc}</p>}
+      {submenu && <p className="mt-[1rem] font-[Heldane-display] text-[1.375rem] text-[#6f7071]">{data.desc}</p>}
     </div>
   );
 };

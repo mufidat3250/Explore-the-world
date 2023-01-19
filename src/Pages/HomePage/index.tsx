@@ -19,7 +19,7 @@ const HomePage = () => {
       <NavBar/>
       <main className="main-section">
         <HeroSection />
-        <div className="mt-[5rem] w-[98%] mx-auto">
+        <div className="mt-[7rem] w-[100%] mx-auto">
           <Sliders>
             {sliderImg.map((slider, index) => (
               <div className="h-[17rem]" key={index}>
@@ -41,7 +41,7 @@ const HomePage = () => {
             <Button title="OUR ROOMS" />
           </div>
         </div>
-            <Montauk title="MONTAUK" bg="/images/montauk.jpg"/>
+            <Montauk />
             <Happenings/>
             <Experience data={experience}/>
 

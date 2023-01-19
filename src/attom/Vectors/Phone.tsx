@@ -1,5 +1,4 @@
 import { SVGProps } from "react"
-
 const Phone = (props: SVGProps<SVGSVGElement>) => (
   <svg
     className="ml-2 fill-current text-mar-fill-0"

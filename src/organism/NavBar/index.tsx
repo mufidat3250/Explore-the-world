@@ -17,7 +17,6 @@ const NavBar = () => {
   const handleMobileTabSwitch = () => {
     setIsMobileTabOpen((prev) => !prev);
   };
-  console.log(isMobileTabOpen);
   return (
     <div className="NavBar ">
       <div className="nav-wrapper">

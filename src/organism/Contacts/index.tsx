@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "../../attom/Button";
 import Input from "../../attom/Input";
 import "./Contact.scss";

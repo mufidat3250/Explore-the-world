@@ -1,21 +1,22 @@
 @font-face {
   font-family: "Heldane Display";
-  src: local("Heldane Display Bold"), local("Heldane Display-bold"),
-    url("/HeldaneTextWeb-Bold.woff2") format("truetype");
+  src: local("Heldane Display Bold"),
+    url("/HeldaneTextWeb-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Heldene Display";
-  src: local("Heldane Display Regular"), local("Heldane Display-regular"),
-    url("/HeldaneDisplay/HeldaneTextWeb-Regular.woff2") format("truetype");
+  src: local("Heldane Display Regular"),
+    url("/HeldaneDisplay/HeldaneTextWeb-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Heldane Display";
-  src: local("Heldane Display italic"), local("Heldane-Display-italic"),
-    url("/HeldaneTextWeb-RegularItalic.woff2") format("truetype");
+  src: local("Heldane Display italic"),
+    url("/HeldaneTextWeb-RegularItalic.woff2") format("woff2");
   font-weight: normal;
   font-style: italic;
 }
