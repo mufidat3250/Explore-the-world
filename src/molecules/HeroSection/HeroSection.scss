@@ -14,6 +14,6 @@
         }        
     }
     .desc{
-        @apply  text-[#6f4d35] max-w-[52rem] px-6 md:text-[1.375rem] md:pl-[5rem] pb-[3.25rem] pt-[2.25rem] font-[Heldene-display];
+        @apply  text-[#6f4d35] max-w-[52rem] px-6 md:text-[1.375rem] md:pl-[5rem] pb-[3.25rem] pt-[2.25rem] font-[Heldene-display] container;
     }
 }

@@ -4,8 +4,8 @@ import './Footer.scss'
 const link = ['EVENTS', 'OFFERS', 'ADA ACCESS', 'CONTACT', 'GALLERY', 'INSTAGRAM', 'FACEBOOK', 'PRIVACY POLICY', '']
 const Footer = () => {
   return (
-    <div className="footerWraper ">
-     <div className="footer-content">
+    <div className="footerWraper  ">
+     <div className="footer-content container">
      <div className="flex gap-[1rem]">
       <div className="">
       <FooterLogo />

@@ -2,12 +2,12 @@
 import "./Experience.scss";
 const Experience = ({ data }: { data: any }) => {
   return (
-    <div className="experience" id={"experience"}>
+    <div className="experience container" id={"experience"}>
       {data.map((data: any, index: number) => (
         <div className="" key={index}>
           {index % 2 == 0 && (
             <div className="even-wrapper">
-              <img src={data.img} alt="" className="" />
+              <img src={data.img} alt="" className="h-full" />
               <div className="even-desc">
                  {data.desc}
                 <div className="mt-[2.8125rem]">{data.button}</div>
