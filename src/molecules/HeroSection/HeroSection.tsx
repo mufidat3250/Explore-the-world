@@ -13,9 +13,11 @@ const HeroSection = () => {
       <source src="videos/hero-index.mp4" type="video/mp4"/>
 </video>
       </div>
-   <div className='desc '>
+  <div className='container'>
+  <div className='desc '>
    <p >A truly unique oceanfront experience located in the heart of Montauk, marram is a ninety-six room boutique resort hotel, offering barefoot luxury and essential experiences that invite you to focus on <i>life’s simple pleasures.</i></p>
    </div>
+  </div>
     </div>
   )
 }
