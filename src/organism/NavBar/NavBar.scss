@@ -3,7 +3,7 @@
 }
 
 .NavBar {
-  @apply flex justify-between  py-4 bg-primary relative z-50 px-10 lg:px-0;
+  @apply flex justify-between  py-4 bg-primary relative z-50 px-10 2xl:px-0;
   text-decoration: none;
   user-select: none;
   .nav-wrapper {
