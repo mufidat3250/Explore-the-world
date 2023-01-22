@@ -18,7 +18,8 @@ const NavBar = () => {
     setIsMobileTabOpen((prev) => !prev);
   };
   return (
-    <div className="NavBar container">
+   <div className="navBar-wrapper">
+     <div className="NavBar container">
       <div className="nav-wrapper">
         <a href="#" className="logo">
           MARRAM
@@ -77,6 +78,7 @@ const NavBar = () => {
         </div>
       </div>
     </div>
+   </div>
   );
 };
 
