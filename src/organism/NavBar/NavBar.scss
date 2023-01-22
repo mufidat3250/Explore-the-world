@@ -1,8 +1,9 @@
 .navBar-wrapper{
   @apply border-[#e0d2c9] border-b-[1px];
 }
+
 .NavBar {
-  @apply flex justify-between  py-4 bg-primary relative z-50;
+  @apply flex justify-between  py-4 bg-primary relative z-50 px-10 lg:px-0;
   text-decoration: none;
   user-select: none;
   .nav-wrapper {
